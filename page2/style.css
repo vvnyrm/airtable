@@ -1,0 +1,74 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+}
+
+body {
+    background-color: #F6F1E4;
+  }
+
+h1 {
+    font-family: 'Ballet';
+    font-size: 5rem;
+    margin-bottom: .5em;
+}
+
+button {
+  background-color: transparent;
+  color: black;
+  border: none;
+  font-size: 1.5em;
+  font-family: 'Quicksand';
+}
+
+button:hover {
+  text-decoration:underline;
+}
+
+.top-decor {
+  margin-top: 1em;
+}
+
+.btn-container {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 3em;
+}
+
+/* .airtable-image{
+  width: 200px; 
+} */
+
+.airtable-item{
+  display: grid;
+  justify-self: center;
+  text-align: center;
+  font-family: 'Quicksand';
+  font-size: 1.2em;
+}
+
+/*.novel-filter-show{
+  background-color: rgb(146, 114, 93);
+  display: block;
+}
+
+.novel-filter-hide{
+  display: none; 
+}*/
+
+.hidden{
+  display: none
+}
+
+.context-container {
+  display:grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  column-gap: 1em;
+  row-gap: 3em;
+  justify-self: center;
+}
